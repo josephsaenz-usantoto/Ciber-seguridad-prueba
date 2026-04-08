@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}Bienvenido{% endblock %} {% block
+content %}
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6">
+    <div class="card shadow-sm">
+      <div class="card-body p-5 text-center">
+        <h1 class="display-6 mb-3">¡Bienvenido a la APP de la USTA! 🎉</h1>
+        <p class="lead text-muted">Has pasado la verificación correctamente.</p>
+        <a href="{{ url_for('home') }}" class="btn btn-outline-primary mt-3"
+          >Volver al inicio</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
